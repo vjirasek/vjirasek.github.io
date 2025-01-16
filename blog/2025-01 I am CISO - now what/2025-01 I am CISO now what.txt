@@ -1,0 +1,16 @@
+---
+date: 2025-01-05
+draft: true
+tags:
+    - GRC
+categories:
+    - Cyber Security
+---
+
+# I am CISO now what
+
+....
+
+<!-- more -->
+
+# ....
