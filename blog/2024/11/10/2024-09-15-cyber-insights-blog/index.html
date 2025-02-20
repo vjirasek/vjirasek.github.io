@@ -845,6 +845,65 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#external-cyber-security-posture" class="md-nav__link">
+    <span class="md-ellipsis">
+      External cyber security posture
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="External cyber security posture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#domain-name-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Domain Name System
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#website" class="md-nav__link">
+    <span class="md-ellipsis">
+      Website
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#email" class="md-nav__link">
+    <span class="md-ellipsis">
+      Email
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion-and-next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion and next steps
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -957,24 +1016,24 @@
 <p>Over the past 12 months, I have had several discussions with business leaders and small startups about the image their organisations are portraying to potential attackers, usually cybercriminals seeking ransom money.</p>
 <p>When explaining the need for basic cybersecurity hygiene to these business leaders, I usually use an analogy from the physical world: “In your home, would you install a secure door? Would you add a lock that has a certain level of security? Would you install an alarm system and some cameras? What do you think a criminal staking out his next ‘mark’ would make of your home if you had these measures in place as opposed to not having them? Would it influence his decision to burglarise your home at the earliest opportunity?” After considering this, most people I speak to agree it makes sense to have basic controls in their home and their business. You see, criminals behave opportunistically and optimise their “Return on Investment”.</p>
 <p>At this point in the discussion, I usually have an engaged audience asking me, “So, what should we do to make us a less enticing target?” This opens up the topic of external cybersecurity posture management. </p>
-<h1 id="external-cyber-security-posture">External cyber security posture<a class="headerlink" href="#external-cyber-security-posture" title="Permanent link">&para;</a></h1>
-<p>How an a business secures its external perimeter and assets reflects its efforts to secure the whole organisation. In other words, lacking any other information available to a burglar, leaving the door open makes him feel the urge to opportunistically barge in and steal as much as possible. On the other hand, having state-of-the-art security visible on the outside of your house is likely to make the burglar skip your house and seek other targets.</p>
+<h2 id="external-cyber-security-posture">External cyber security posture<a class="headerlink" href="#external-cyber-security-posture" title="Permanent link">&para;</a></h2>
+<p>How a business secures its external perimeter and assets reflects its efforts to secure the whole organisation. In other words, lacking any other information available to a burglar, leaving the door open makes him feel the urge to opportunistically barge in and steal as much as possible. On the other hand, having state-of-the-art security visible on the outside of your house is likely to make the burglar skip your house and seek other targets.</p>
 <p>On the Internet, the visible “assets” are your Domain Name System, your website, email system, and finally any system accessible over an Internet. While these would warrant their own articles, I cover these from the point of view for business executives here. Each area then contains keywords for IT teams to learn more about.</p>
-<h2 id="domain-name-system">Domain Name System<a class="headerlink" href="#domain-name-system" title="Permanent link">&para;</a></h2>
+<h3 id="domain-name-system">Domain Name System<a class="headerlink" href="#domain-name-system" title="Permanent link">&para;</a></h3>
 <p>The Domain Name System (DNS) acts as the yellow pages on the Internet so your prospects, partners, and clients can find you. It tells them how to find your website, send you email, and communicate with your company. Your IT team manages and secures the information in your DNS database.</p>
 <p>By design, your DNS zone information is open to read by anyone who knows what questions to ask. Leaving your DNS in a less than optimal state of security opens you up to further probes by criminals.</p>
 <p>As a critical system, the DNS should be managed by experts, and access to make any changes should be secured by state-of-the-art security controls.</p>
 <p><strong>Keywords for IT teams</strong>: DNSSEC, Domain Registrar, multi-factor authentication, DNS primary, secondary, and shadow zones, DNS zone data transfers, Domain Lock, dangling DNS</p>
-<h2 id="website">Website<a class="headerlink" href="#website" title="Permanent link">&para;</a></h2>
+<h3 id="website">Website<a class="headerlink" href="#website" title="Permanent link">&para;</a></h3>
 <p>The website is your company’s public portal, presenting your company, perhaps even allowing clients to purchase your products and services.</p>
 <p>There is a fair amount of technologies and standards involved with running a website that portrays your company as cybersecurity conscious. Your teams should carefully select the website hosting provider, enrol security certificates, enforce strong encryption, and set up strong authentication (where applicable).</p>
 <p><strong>Keywords for IT teams</strong>: HTTPS, cookies, certificates, PKI, Strict Transport Security, HTTP headers, HTTP methods</p>
-<h2 id="email">Email<a class="headerlink" href="#email" title="Permanent link">&para;</a></h2>
+<h3 id="email">Email<a class="headerlink" href="#email" title="Permanent link">&para;</a></h3>
 <p>When I talk to business executives, many don’t appreciate the importance of the email system functioning correctly and reliably. We sort of take email for granted—that is, until emails are not being sent or received. Suddenly, some business processes may stop or slow down significantly.</p>
 <p>Emails on the Internet are sent through a network of Simple Mail Transfer Protocol (SMTP) servers. That’s an oxymoron—email is far from simple. The email-related internet standards have made it one of the most complex internet protocols, likely second only to DNS. I rarely see an organisation configuring its email system correctly and securely. These gaps have an impact on deliverability: the major email providers like Google and Microsoft have put controls in place to block or limit emails from organisations that have not secured their email systems to required levels. Do your clients and partners complain they are missing your emails? Misconfigurations on your side could be the reason. And no, asking clients and partners to add your emails to their allow list does not solve the underlying issue.</p>
 <p><strong>Keywords for IT teams</strong>: SPF, DMIM, DMARC, MTA-STS, DANE, TLS</p>
-<h1 id="conclusion-and-next-steps">Conclusion and next steps<a class="headerlink" href="#conclusion-and-next-steps" title="Permanent link">&para;</a></h1>
-<p>Internet technologies are complex. Not every IT “expert” possesses the required expertise to ensure your business “window shop” portrays your company as taking cybersecurity seriously.</p>
+<h2 id="conclusion-and-next-steps">Conclusion and next steps<a class="headerlink" href="#conclusion-and-next-steps" title="Permanent link">&para;</a></h2>
+<p>Internet technologies are complex. Not every IT “expert” possesses the required expertise to ensure your business “windowshop” portrays your company as taking cybersecurity seriously.</p>
 <p>If you have any doubts or want to check your company’s exposure to cyber risks, do contact me.</p>
 <p>This revision corrects grammatical errors, fixes typos, and clarifies some sentences for better readability. Let me know if there’s anything else you’d like me to adjust or improve.</p>
 
